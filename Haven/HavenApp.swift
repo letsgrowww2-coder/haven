@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct HavenApp: App {
+    @StateObject private var appState = AppState()
+
+    init() {
+        // TODO: Uncomment after adding Firebase package via File > Add Package Dependencies
+        // FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if appState.isAuthenticated {
+                ContentView()
+                    .environmentObject(appState)
+            } else {
+                LoginView()
+                    .environmentObject(appState)
+            }
         }
     }
 }

@@ -1,24 +1,31 @@
-//
-//  ContentView.swift
-//  Haven
-//
-//  Created by Reyaansh Bansal on 6/13/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var appState: AppState
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            MapView()
+                .tabItem { Label(L10n.t(.tabFindHelp), systemImage: "map.fill") }
+
+            VaultView()
+                .tabItem { Label(L10n.t(.tabMyDocs), systemImage: "lock.shield.fill") }
+
+            PathwayView()
+                .tabItem { Label(L10n.t(.tabPathway), systemImage: "signpost.right.fill") }
+
+            AIAssistantView()
+                .tabItem { Label(L10n.t(.tabAskAI), systemImage: "bubble.left.and.bubble.right.fill") }
+
+            ProfileView()
+                .tabItem { Label(L10n.t(.tabProfile), systemImage: "person.circle.fill") }
         }
-        .padding()
+        .tint(.blue)
+        .environment(\.layoutDirection, appState.preferredLanguage.isRTL ? .rightToLeft : .leftToRight)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(AppState())
 }

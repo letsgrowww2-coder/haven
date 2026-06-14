@@ -398,6 +398,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Haven uses your camera to scan and save documents.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haven uses your location to find nearby shelters, food, and services.\n\nHaven uses your location to find nearby shelters, food, and services.\n\nHaven uses your location to find nearby shelters, food, and services.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Haven needs photoaccess to save documents to your vault.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,6 +445,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Haven uses your camera to scan and save documents.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Haven uses your location to find nearby shelters, food, and services.\n\nHaven uses your location to find nearby shelters, food, and services.\n\nHaven uses your location to find nearby shelters, food, and services.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Haven needs photoaccess to save documents to your vault.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
