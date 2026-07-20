@@ -41,26 +41,31 @@ Community	Moderated peer support spaces built on trust and respect
 Resource Library	Curated mental health, safety, and wellness resources
 
 Platform Highlights
+
 🔒 Privacy first — end-to-end encryption on all personal data
+
 💚 Always available — 24/7 access to support and resources
+
 🤝 Human centered — designed with empathy at every step
+
 📵 Zero judgment — a space where users are accepted as they are
+
 🛡️ Safety by design — built with safeguards that protect vulnerable users
+
 How It Works
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────────┐
-│   User Enters   │────▶│  Haven Platform  │────▶│   Personalized      │
-│   Haven         │     │  (AI + Community)│     │   Support Output    │
-└─────────────────┘     └──────────────────┘     │  - Check-in prompt  │
-                                                  │  - Resource match   │
-                                                  │  - Peer connection  │
-                                                  │  - Emergency alert  │
-                                                  └─────────────────────┘
+
 Enter — User opens Haven and is welcomed into their personal safe space
+
 Express — User shares how they are feeling through check-ins, journal entries, or community posts
+
 Receive — Haven surfaces relevant resources, support, or peer connections based on user input
+
 Act — User takes a supported next step — whether that is reading a resource, reaching out to someone, or triggering an emergency protocol
+
 Reflect — Over time Haven builds a picture of user wellbeing trends to offer more personalized support
+
 Getting Started
+
 Prerequisites
 Node.js v18 or higher
 npm or yarn
